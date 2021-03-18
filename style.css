@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/beneficios.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 70px;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area a {
+    transition: .3s;
+    color: #fff;
+}
+
+.nav-area a:hover {
+    color: orange;
+}
+
+.btn-area {
+    background: orange;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s ease-in all;
+    cursor: pointer;
+}
+
+.btn-area:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 200px;
+}
+
+.botoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-agendar {
+    background: orange;
+    padding: 15px 30px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: .3s ease-in all;
+    cursor: pointer;
+}
+
+.btn-agendar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 209px;
+}
+
+footer a {
+    color: white;
+    transition: color .2s;
+}
+
+footer a:hover {
+    color: pink;
+    transition: color .2s;
+}
